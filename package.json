@@ -1,6 +1,6 @@
 {
   "name": "@guseyn/cutie-assert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cutie extension for assert module in Node.",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "node"
   ],
   "dependencies": {
-    "@guseyn/cutie": "1.2.5"
+    "@guseyn/cutie": "1.2.6"
   },
   "author": "guseyn",
   "license": "MIT",
