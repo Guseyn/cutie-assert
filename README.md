@@ -1,4 +1,7 @@
 # cutie-assert
+
+[![NPM Version][npm-image]][npm-url]
+
 Cutie extension for assert module in Node. It's based on the [Async Tree Pattern](https://github.com/Guseyn/async-tree-patern/blob/master/Async_Tree_Patern.pdf).
 
 
@@ -19,3 +22,6 @@ Cutie extension for assert module in Node. It's based on the [Async Tree Pattern
 | OkAssertion | assert.ok | value, message  | value |
 | StrictEqualAssertion | assert.strictEqual | actual, expected, message | actual |
 | ThrownErrorAssertion | assert.throws | block, error, message | block |
+
+[npm-image]: https://img.shields.io/npm/v/@guseyn/cutie-assert.svg
+[npm-url]: https://npmjs.org/package/@guseyn/cutie-assert
