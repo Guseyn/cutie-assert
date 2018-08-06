@@ -10,6 +10,7 @@ module.exports = {
   NotDeepEqualAssertion: require('./src/NotDeepEqualAssertion'),
   NotDeepStrictEqualAssertion: require('./src/NotDeepStrictEqualAssertion'),
   NotEqualAssertion: require('./src/NotEqualAssertion'),
+  NotStrictEqualAssertion: require('./src/NotStrictEqualAssertion'),
   NotThrownErrorAssertion: require('./src/NotThrownErrorAssertion'),
   OkAssertion: require('./src/OkAssertion'),
   StrictEqualAssertion: require('./src/StrictEqualAssertion'),

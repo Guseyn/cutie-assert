@@ -3,7 +3,7 @@
 const AsyncObject = require('@guseyn/cutie').AsyncObject;
 const assert = require('assert');
 
-// Represented result is thrown error
+// Represented result is thrown error or value(if it's false)
 class IfErrorAssertion extends AsyncObject {
 
   constructor(value) {
@@ -12,7 +12,8 @@ class IfErrorAssertion extends AsyncObject {
 
   definedSyncCall() {
     return (value) => {
-      assert.doesNotThrow(value);
+      assert.ifError(value);
+      return value;
     }
   }
 
