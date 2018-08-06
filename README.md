@@ -8,7 +8,7 @@ Cutie extension for assert module in Node. It's based on [Async Tree Pattern](ht
 | DeepEqualAssertion | assert.deepEqual | actual, expected, message | actual |
 | DeepStrictEqualAssertion | assert.deepStrictEqual | actual, expected, message | actual |
 | EqualAssertion | assert.equal | actual, expected, message | actual |
-| FailedAssertion | assert.fail | actual, expected, message, operator, stackStartFunction | thrown error |
+| FailedAssertion | assert.fail | actual, expected, message, operator ('!='), stackStartFunction (assert.fail) | thrown error |
 | FailedAssertionWithMessageOnly | assert.fail | message | thrown error |
 | IfErrorAssertion | assert.ifError | value | thrown error or value(if it's false) |
 | NotDeepEqualAssertion | assert.notDeepEqual | actual, expected, message | actual |
