@@ -7,8 +7,8 @@
 
 | Async Object  | Async/sync call | Parameters | Representation result |
 | ------------- | ----------------| ---------- | --------------------- |
-| Assertion     | `assert` | value, message | value |
-| DeepEqualAssertion | `assert.deepEqual` | actual, expected, message | actual |
+| Assertion     | `assert` | <i>value, message</i> | value |
+| DeepEqualAssertion | `assert.deepEqual` | <i>actual, expected, message</i> | actual |
 | DeepStrictEqualAssertion | `assert.deepStrictEqual` | actual, expected, message | actual |
 | EqualAssertion | `assert.equal` | actual, expected, message | actual |
 | FailedAssertion | `assert.fail` | actual, expected, message, operator ('!='), stackStartFunction (assert.fail) | thrown error |
