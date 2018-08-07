@@ -25,3 +25,7 @@
 
 [npm-image]: https://img.shields.io/npm/v/@guseyn/cutie-assert.svg
 [npm-url]: https://npmjs.org/package/@guseyn/cutie-assert
+
+# Examples
+
+You can find examples of using this library in [test directory](https://github.com/Guseyn/cutie-assert/tree/master/test)
