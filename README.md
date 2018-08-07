@@ -2,7 +2,7 @@
 
 [![NPM Version][npm-image]][npm-url]
 
-Cutie extension for assert module in Node. It's based on the [Async Tree Pattern](https://github.com/Guseyn/async-tree-patern/blob/master/Async_Tree_Patern.pdf).
+[Cutie](https://github.com/Guseyn/cutie) extension for assert module in Node. It's based on the [Async Tree Pattern](https://github.com/Guseyn/async-tree-patern/blob/master/Async_Tree_Patern.pdf).
 
 
 | Async Object  | Async/sync call | Parameters | Representation result |
