@@ -28,4 +28,4 @@
 
 # Examples
 
-You can find examples of using this library in [test directory](https://github.com/Guseyn/cutie-assert/tree/master/test)
+You can find examples of using this library in the [test directory](https://github.com/Guseyn/cutie-assert/tree/master/test)
