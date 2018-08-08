@@ -12,7 +12,7 @@ You can find examples of using this library in the [test directory](https://gith
 
 ```js
 const {
-  // Needed async objects here from the table below
+  // Here needed async objects from the table below
 } = require('@guseyn/cutie-assert');
 ```
 
