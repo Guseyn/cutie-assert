@@ -13,7 +13,7 @@ You can find examples of using this library in the [test directory](https://gith
 ```js
 const {
   // Needed async objects here from the table below
-} = require('@guseyn/cutie-fs');
+} = require('@guseyn/cutie-assert');
 ```
 
 | Async Object  | Async/sync call | Parameters | Representation result |
