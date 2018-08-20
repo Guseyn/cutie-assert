@@ -18,7 +18,7 @@ const {
 
 For more information about parameters in the async objects visit [docs of Node](https://nodejs.org/en/docs/) for <b>assert</b> module.
 
-| Async Object  | Async/sync call | Parameters | Representation result |
+| Async Object  | Async/sync call | Parameters(default value/description) | Representation result |
 | ------------- | ----------------| ---------- | --------------------- |
 | `Assertion`     | `assert` | `value, message` | `value` |
 | `DeepEqualAssertion` | `assert.deepEqual` | `actual, expected, message` | `actual` |
