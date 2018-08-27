@@ -13,7 +13,7 @@ You can find examples of using this library in the [test directory](https://gith
 ```js
 const {
   // Here needed async objects from the table below
-} = require('@guseyn/cutie-assert');
+} = require('@cuties/assert');
 ```
 
 For more information about parameters in the async objects visit [docs of Node](https://nodejs.org/en/docs/) for <b>assert</b> module.
@@ -36,5 +36,5 @@ For more information about parameters in the async objects visit [docs of Node](
 | `StrictEqualAssertion` | `assert.strictEqual` | `actual, expected, message` | `actual` |
 | `ThrownErrorAssertion` | `assert.throws` | `block, error, message` | `block` |
 
-[npm-image]: https://img.shields.io/npm/v/@guseyn/cutie-assert.svg
-[npm-url]: https://npmjs.org/package/@guseyn/cutie-assert
+[npm-image]: https://img.shields.io/npm/v/@cuties/assert.svg
+[npm-url]: https://npmjs.org/package/@cuties/assert
