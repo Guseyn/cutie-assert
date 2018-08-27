@@ -1,6 +1,6 @@
 {
-  "name": "@guseyn/cutie-assert",
-  "version": "1.1.1",
+  "name": "@cuties/cutie-assert",
+  "version": "1.1.2",
   "description": "Cutie extension for assert module in Node.",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "node"
   ],
   "dependencies": {
-    "@guseyn/cutie": "1.4.0",
+    "@cuties/cutie": "1.4.3",
     "@guseyn/cutie-error": "1.0.4",
     "test-executor": "1.0.8"
   },
@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/Guseyn/cutie-assert/issues"
   },
-  "homepage": "https://github.com/Guseyn/cutie-assert#readme"
+  "homepage": "https://github.com/Guseyn/cutie-assert#readme",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
 }
