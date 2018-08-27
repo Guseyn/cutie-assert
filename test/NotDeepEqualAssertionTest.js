@@ -2,7 +2,7 @@
 
 const {
   ErrorMessage
-} = require('@guseyn/cutie-error');
+} = require('@cuties/error');
 const {
   NotDeepEqualAssertion,
   EqualAssertion
