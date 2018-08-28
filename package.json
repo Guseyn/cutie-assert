@@ -17,8 +17,7 @@
   ],
   "dependencies": {
     "@cuties/cutie": "1.4.3",
-    "@cuties/error": "1.0.5",
-    "test-executor": "1.0.9"
+    "test-executor": "1.1.0"
   },
   "author": "guseyn",
   "license": "MIT",
