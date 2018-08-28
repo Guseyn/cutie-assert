@@ -1,8 +1,6 @@
 'use strcit'
 
-const {
-  ErrorMessage
-} = require('@cuties/error');
+const ErrorMessage = require('./../deps/ErrorMessage');
 const {
   EqualAssertion
 } = require('./../index');
