@@ -1,22 +1,20 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
-const assert = require('assert');
+const AsyncObject = require('@cuties/cutie').AsyncObject
+const assert = require('assert')
 
 // Represented result is actual value (for further using)
 class NotDeepStrictEqualAssertion extends AsyncObject {
-
-  constructor(actual, expected, message) {
-    super(actual, expected, message);
+  constructor (actual, expected, message) {
+    super(actual, expected, message)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (actual, expected, message) => {
-      assert.notDeepStrictEqual(actual, expected, message);
-      return actual;
+      assert.notDeepStrictEqual(actual, expected, message)
+      return actual
     }
   }
-
 }
 
-module.exports = NotDeepStrictEqualAssertion;
+module.exports = NotDeepStrictEqualAssertion
