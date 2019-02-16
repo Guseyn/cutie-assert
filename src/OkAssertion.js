@@ -1,1 +1,1 @@
-module.exports = require('./Assertion');
+module.exports = require('./Assertion')

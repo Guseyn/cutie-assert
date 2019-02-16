@@ -1,21 +1,13 @@
 'use strcit'
 
-const ErrorMessage = require('./../deps/ErrorMessage');
-const {
-  EqualAssertion,
-  IfErrorAssertion
-} = require('./../index');
+const { IfErrorAssertion } = require('./../index')
+
+new IfErrorAssertion(null).call()
 
 try {
   new IfErrorAssertion(
     new Error('err')
-  ).call();
+  ).call()
 } catch (err) {
-  new EqualAssertion(
-    new ErrorMessage(err), 'err'
-  ).call();
+  console.log(err)
 }
-
-new EqualAssertion(
-  new IfErrorAssertion(0), 0
-).call();

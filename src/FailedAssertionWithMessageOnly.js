@@ -1,21 +1,19 @@
 'use strict'
 
-const AsyncObject = require('@cuties/cutie').AsyncObject;
-const assert = require('assert');
+const AsyncObject = require('@cuties/cutie').AsyncObject
+const assert = require('assert')
 
 // Represented result is thrown error
 class FailedAssertionWithMessageOnly extends AsyncObject {
-
-  constructor(message) {
-    super(message);
+  constructor (message) {
+    super(message)
   }
 
-  definedSyncCall() {
+  definedSyncCall () {
     return (message) => {
-      assert.fail(message);
+      assert.fail(message)
     }
   }
-
 }
 
-module.exports = FailedAssertionWithMessageOnly;
+module.exports = FailedAssertionWithMessageOnly
