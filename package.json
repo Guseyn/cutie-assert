@@ -17,9 +17,9 @@
     "node"
   ],
   "dependencies": {
-    "@cuties/cutie": "^1.6.7",
-    "@cuties/wall": "^1.0.18",
-    "test-executor": "^1.1.33"
+    "@cuties/cutie": "^1.6.8",
+    "@cuties/wall": "^1.0.19",
+    "test-executor": "^1.1.34"
   },
   "author": "guseyn",
   "license": "MIT",
