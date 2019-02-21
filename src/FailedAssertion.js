@@ -9,7 +9,7 @@ class FailedAssertion extends AsyncObject {
     super(actual, expected, message, operator || '!=', stackStartFunction || assert.fail)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (actual, expected, message, operator, stackStartFunction) => {
       assert.fail(actual, expected, message, operator, stackStartFunction)
     }

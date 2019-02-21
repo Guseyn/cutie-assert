@@ -9,7 +9,7 @@ class IfErrorAssertion extends AsyncObject {
     super(value)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (value) => {
       assert.ifError(value)
       return value

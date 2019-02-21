@@ -9,7 +9,7 @@ class NotThrownErrorAssertion extends AsyncObject {
     super(block, error, message)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (block, error, message) => {
       assert.doesNotThrow(block, error, message)
       return block

@@ -9,7 +9,7 @@ class FailedAssertionWithMessageOnly extends AsyncObject {
     super(message)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (message) => {
       assert.fail(message)
     }

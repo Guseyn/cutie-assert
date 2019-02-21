@@ -9,7 +9,7 @@ class ThrownErrorAssertion extends AsyncObject {
     super(block, error, message)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (block, error, message) => {
       assert.throws(block, error, message)
       return block
