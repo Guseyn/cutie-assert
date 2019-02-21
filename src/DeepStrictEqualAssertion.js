@@ -9,7 +9,7 @@ class DeepStrictEqualAssertion extends AsyncObject {
     super(actual, expected, message)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (actual, expected, message) => {
       assert.deepStrictEqual(actual, expected, message)
       return actual

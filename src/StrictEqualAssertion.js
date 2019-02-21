@@ -9,7 +9,7 @@ class StrictEqualAssertion extends AsyncObject {
     super(actual, expected, message)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (actual, expected, message) => {
       assert.strictEqual(actual, expected, message)
       return actual

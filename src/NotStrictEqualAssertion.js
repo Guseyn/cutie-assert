@@ -9,7 +9,7 @@ class NotStrictEqualAssertion extends AsyncObject {
     super(actual, expected, message)
   }
 
-  definedSyncCall () {
+  syncCall () {
     return (actual, expected, message) => {
       assert.notStrictEqual(actual, expected, message)
       return actual
