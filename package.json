@@ -1,6 +1,6 @@
 {
   "name": "@cuties/assert",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Cutie extension for assert module in Node.",
   "main": "index.js",
   "scripts": {
