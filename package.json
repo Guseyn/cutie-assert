@@ -4,7 +4,7 @@
   "description": "Cutie extension for assert module in Node.",
   "main": "index.js",
   "scripts": {
-    "test": "node test-executor",
+    "test": "node test",
     "build": "node build"
   },
   "repository": {
@@ -16,11 +16,6 @@
     "assert",
     "node"
   ],
-  "dependencies": {
-    "@cuties/cutie": "^1.7.0",
-    "@cuties/wall": "^1.1.0",
-    "test-executor": "^1.2.0"
-  },
   "author": "guseyn",
   "license": "MIT",
   "bugs": {
@@ -29,6 +24,11 @@
   "homepage": "https://github.com/Guseyn/cutie-assert#readme",
   "directories": {
     "test": "test"
+  },
+  "dependencies": {
+    "@cuties/cutie": "^1.7.4",
+    "@cuties/wall": "^1.1.1",
+    "test-executor": "^1.2.3"
   },
   "devDependencies": {
     "eslint": "^5.14.0",
