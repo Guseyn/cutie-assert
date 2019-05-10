@@ -26,9 +26,9 @@
     "test": "test"
   },
   "dependencies": {
-    "@cuties/cutie": "^1.7.4",
-    "@cuties/wall": "^1.1.1",
-    "test-executor": "^1.2.3"
+    "@cuties/cutie": "^1.7.5",
+    "@cuties/wall": "^1.1.2",
+    "test-executor": "^1.2.4"
   },
   "devDependencies": {
     "eslint": "^5.14.0",
